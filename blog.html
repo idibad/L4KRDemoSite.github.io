@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-COMPATABLE" content="IE=EDGE">
+    
+<link href="style.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand-title"><a href="Home.html/Index.html"><img class="log" src="logo.jpeg" alt=""></a></div>
+            <a href="javascript:void(0);" class="toggle-button" onclick="toggleSidebar()">&#9776;</a>
+             <div class="navbar-links">
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+             </div>
+        </nav>
+    </header>
+<div id="sidebar" class="sidebar">
+    <a href="javascript:void(0);" class="closebtn" onclick="closeSidebar()">&times;</a>
+   <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="products.html">Products</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</div>
+<section class="cover-photo">
+    <h1>Looking 4kreatives</h1>
+    <h2>Proprietary</h2>
+    <h3>Limited.</h3>
+    <br>
+     <aside>Let Us Build Your Brand for You.</aside>
+     <button><a href="about.html">Learn More</a></button>
+</section>
+<section class="cover-blog">
+    <h2 class="h2-blog">#Blog With Us</h2>
+
+    <br>
+     <aside class="aside-blog">See What We Are All About.</aside>
+</section>
+<section class="blog-body">
+
+
+<h2 class="text">What Our Clients Say!</h2>
+    <div class="reviews-container">
+        <div class="review">
+            <div class="review-header">
+                <img class="photo" src="../mbali.jpg" alt="">
+            </div>
+            <h2 class="sub-text">Ms Mbalenhle Zitha</h2>
+            <p class="date">Nov 1st 2023</p>
+            <p class="review-text">i've been using this company's services for over a year now, and i am thoroughly impressed.Their customer 
+                support is outstanding, and their service's have significantly improved our business operations.Highly recommend!"
+            </p>
+        </div>
+        
+    </div>
+    
+    <div class="reviews-container">
+        <div class="review">
+            <div class="review-header">
+                <img class="photo" src="../jo.jpg" alt="">
+            </div>
+            <h2 class="sub-text">Mr John Sarris</h2>
+            <p class="date">April 12th 2024</p>
+            <p class="review-text"> 
+                "The team at <b>Looking 4kreatives Creative Agency</b> is simply amazing.They delivered a custom production solution that exceeded my expectations.The 
+                attention to detail and the quality of their work are unparalleled."
+            </p>
+        </div>
+        
+    </div>
+    <div class="reviews-container">
+        <div class="review">
+            <div class="review-header">
+                <img class="photo" src="../lerato.jpg" alt="">
+            </div>
+            <h2 class="sub-text">Ms Zama Ubisi</h2>
+            <p class="date">May 24th 2024</p>
+            <p class="review-text"> 
+                "Fantastic experience! i remember when i was still starting my small business and really didn't know where to start but after i spoke 
+                to one of the consultants at <b>Looking 4kreatives Creative Agency</b>, the way they helped me with my Brand identity is out of this world! 
+                
+            </p>
+        </div>
+        
+    </div>
+
+<p class="p-production">
+
+    At <b>Looking 4kreatives Creative Agency,</b> we redefine the art of story-telling through the lens of innovation and creativity.As 
+    a premier Creative agency,our brand identity is built on pushing boundaries and delivering cinematic excellence that captivates audiences 
+    .Our team of visionary directors ,skilled cinematographers, and creative producers work tirelessly to transform ideas into visual master-pieces 
+    . Through strategic marketing and deep understanding of our client's visions, we craft compelling narratives that resonates on global scale.
+    Whether it's a commervial,documentary, or feature production project, Our Disruptor Production ensures each project is infused with our 
+    signature style, making your story not just seen,but unforgettable.
+</p>
+
+<h2 class="text">Trust Us With Your Brand!</h2>
+    <video autoplay loop muted playsinline>
+        <source src="../video.mp4" type="video/mp4" style="width: 200px;">
+    </video>
+</section>
+
+
+<section class="booking-section">
+
+    <div class="container">
+        <h2 class="text">Book An Appointment!</h2>
+        <form action="mailto:innocent21savage@gmail.com" method="post" enctype="text/plain" id="bookingForm">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button class="submit-btn" type="submit">Book Appointment</button>
+        </form>
+
+    <div id="confirmation" class="hidden">
+
+        <h2 class="text">Appointment Recieved</h2>
+        <p class="p-t">Thank you for Choosing Us, <span id="confirmName"></span>.</p>
+
+    </div>
+
+    </div>
+</section>
+<h2 class="text">Follow Us On</h2>
+<img class="social" src="../fit.jpg" alt="">
+<br><br>
+<section class="section">
+    <h2 class="text">WHAT WE DO!</h2>
+
+    <div class="fade-text">
+                  <h2 class="text-change" id="changing-text"></h2>
+</div>
+<br><br><br>
+<div class="news-letter">
+    <h2 class="text-letter">Sign Up For Our News Letter</h2>
+    <form  action="mailto:innocent21savage@gmail.com" method="post" enctype="text/plain" >
+                <label class="label" for="email" > Email:</label>
+                <input class="input" type="email" name="email" id="email" placeholder="Email">
+                <br>
+                <button type="Submit" class="submit-btn2">Send Message</button>
+    </form>
+</div>
+
+<p>
+    We Provide World Class Brand-Defining and Captivating Content.We are a Disruptor Creative Agency,offering full range of Branding and 
+    Creative Services To Clients both international and local.
+</p>
+
+<h2 class="text">Call Us For More Info.</h2>
+<br><br>
+<button class="call-btn"><a href="tel:0722706563">Phone</a></button>
+</section>
+
+
+<footer>
+<div class="content">
+    <div class="logo">
+        <img class="footer-logo" src="../logo.jpeg" alt="">
+
+                  </div>
+
+                  <div class="links">
+                    <p class="text-p">Links</p>
+
+                    <a class="a" href="../Home.html/Index.html">Home</a>
+                    <a class="a" href="../About.html/About.html">About</a>
+                    <a class="a" href="../Products.html/Products.html">Products</a>
+                    <a class="a" href="../Blog.html/Blog.html">Blog</a>
+                    <a class="a" href="../Services.html/Services.html">Services</a>
+                    <a class="a" href="../Contact.Html/Contact.html">Contact</a>
+                  </div>
+    </div>
+    <div class="find-us">
+        <p class="text-p">Find Us At</p>
+        <p class="p">2111 Naledi Street Pretoria</p>
+        <p class="p"> Tel: +277 220 6563</p>
+        <p class="p">Email: innocent21savage@gmail.com</p>
+    </div>
+    <br>
+    <p class="text-f">&copy;Looking 4kreatives Creative Agency 2024</p>
+</footer>
+
+
+    <script src="../Main.Main.js"></script>
+</body>
+</html>
